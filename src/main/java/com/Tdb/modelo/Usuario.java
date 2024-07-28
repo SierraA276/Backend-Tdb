@@ -7,8 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-
-
 @Entity
 @Data
 @NoArgsConstructor
@@ -21,8 +19,8 @@ public class Usuario {
     String nombreUsuario;
     String apellidoUsuario;
     String emailUsuario;
-    //Aqui se deben agregar los valores realcionados a usuarios como
-    //Deuda maxima, tope mensual, historial de compras,rol y así
-    
-    
+    // Aqui se deben agregar los valores realcionados a usuarios como
+    // Deuda maxima, tope mensual, historial de compras,rol y así
+    // Tener en cuenta las llaves foranes a futuro para vincular las cosas
+
 }
